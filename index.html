@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories Fandom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        @media screen and (max-width: 400px) and (max-height: 900px){
+            #story{
+                height: 390px;
+            }
+            .chupan{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1><a href="index.html">Stories Fandom</a></h1>
+    </div>
+    <br><br>
+    <div class="stories">
+        <div class="story1" id="story">
+            <h1><a href="1.html">1. Heading</a></h1>
+            <p><a href="1.html">Once upon a time, in the quaint village of Eldergrove, <br>there lived an eccentric inventor named Professor Bartholomew Quill. <br>His workshop was a chaotic blend of gears, cogs, and peculiar <br>contraptions that defied explanation. The villagers often whispered about the strange noises emanating from his workshop at odd hours—clanks, whirrs,</a></p>
+        </div>
+        <div class="story2" id="story">
+            <h1><a href="2.html">2. Heading</a></h1>
+            <p><a href="2.html">With tearful farewells, they stepped back through the portal. <br>The oak tree sealed shut, and the villagers returned to their lives, <br>forever changed.Professor Quill resumed his inventions, <br>but now he added a touch of Faerie-land to each creation—a clock that whispered secrets, a teapot that brewed dreams. And every night, he gazed at the stars,.</a></p>
+        </div>
+    </div>
+    <br><br>
+    <div class="footer">
+        <h4 style="color: white;" class="answerbtn" onclick="visibtn()">Want your writing to be here?</h4>
+        <p id="ans" class="answw" >fjhknbvjkasbkgferlkmvas</p>
+    </div>
+    <br><br>
+
+    <script>
+        function visibtn(){
+            var x = document.getElementById("ans");
+
+            if(x.style.display == "none") {
+                x.style.display = "block";
+            }
+
+            else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>

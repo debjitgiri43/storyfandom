@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Sarlotte;
+    src: url(Sarlotte.otf);
+}
+@font-face {
+    font-family: Simplify;
+    src: url(Simplify.ttf);
+}
+h1{
+    color: white;
+    font-family: Simplify;
+    text-align: center;
+}
+.title, #story{
+    background: rgba(255, 255, 255, 0.116);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-family: Simplify;
+    text-align: center;
+}
+#story{
+    margin-bottom: 30px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.story{
+    background: rgba(255, 255, 255, 0.116);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+#ans{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

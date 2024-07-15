@@ -1,10 +1,10 @@
 @font-face {
     font-family: Sarlotte;
-    src: url(Sarlotte.otf);
+    src: url(Montserrat-Regular.woff);
 }
 @font-face {
     font-family: Simplify;
-    src: url(Simplify.ttf);
+    src: url(Montserrat-Bold.woff);
 }
 h1{
     color: white;
